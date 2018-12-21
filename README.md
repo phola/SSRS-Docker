@@ -19,6 +19,8 @@ example:
 docker run -d -p 1433:1433 -p 80:80 -v C:/temp/:C:/temp/ -e sa_password=<YOUR SA PASSWORD> -e ACCEPT_EULA=Y -e ssrs_user=SSRSAdmin -e ssrs_password=<YOUR SSRSAdmin PASSWORD> --memory 6048mb phola/ssrs
 ```
 
+then access SSRS at http://localhost/reports and login using ssrs_user
+
 ## Tips
 
 - **-p 80:80** to access report manager in browser

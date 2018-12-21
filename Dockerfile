@@ -28,5 +28,3 @@ RUN  Invoke-WebRequest -Uri $env:exe -OutFile SQLServerReportingServices.exe ; \
 
 CMD .\start -sa_password $env:sa_password -ACCEPT_EULA $env:ACCEPT_EULA -attach_dbs \"$env:attach_dbs\" -ssrs_user $env:ssrs_user -ssrs_password $env:ssrs_password -Verbose
 
-# example run 
-# docker run -ti -p 80:80 -p 1433:1433 -v D:/db/:C:/temp/ -e sa_password=7?107=uoVzejpVeIN39> -e ACCEPT_EULA=Y -e ssrs_user=SSRSAdmin -e ssrs_password=aszx!234 --memory 6048mb ssrs

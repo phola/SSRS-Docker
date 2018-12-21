@@ -2,6 +2,8 @@
 
 creates a fresh install of SSRS in a container - pretty useful for dev / test - not for production use!
 
+https://hub.docker.com/r/phola/ssrs
+
 ## Run it
 
 This sample is uses mssql-server-windows-developer as a parent image and accepts all the commands listed there:

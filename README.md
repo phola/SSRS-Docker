@@ -10,7 +10,7 @@ https://github.com/Microsoft/mssql-docker/tree/master/windows/mssql-server-windo
 
 In addtion it accepts two more env variables: </br>
 
-- **ssrs_user=**: Name of a new admin user that will be created so you can login to report server
+- **ssrs_user=**: Name of a new admin user that will be created to login to report server
 - **ssrs_password**: Sets the password for the admin user
 
 example:
